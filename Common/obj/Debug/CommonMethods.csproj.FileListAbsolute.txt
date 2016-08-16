@@ -1,0 +1,5 @@
+D:\code\bigq\bigqcli\Common\bin\Debug\Common.dll
+D:\code\bigq\bigqcli\Common\bin\Debug\Common.pdb
+D:\code\bigq\bigqcli\Common\obj\Debug\CommonMethods.csprojResolveAssemblyReference.cache
+D:\code\bigq\bigqcli\Common\obj\Debug\Common.dll
+D:\code\bigq\bigqcli\Common\obj\Debug\Common.pdb
