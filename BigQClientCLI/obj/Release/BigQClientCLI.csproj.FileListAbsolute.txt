@@ -1,0 +1,16 @@
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\client1.json
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\client2.json
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\bigq-client.exe.config
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\bigq-client.exe
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\bigq-client.pdb
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\BigQ.dll
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\Common.dll
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\Newtonsoft.Json.dll
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\System.Data.Portable.dll
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\System.Transactions.Portable.dll
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\Common.pdb
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\BigQ.pdb
+D:\Code\BigQ\BigQCLI\BigQClientCLI\bin\Release\Newtonsoft.Json.xml
+D:\Code\BigQ\BigQCLI\BigQClientCLI\obj\Release\BigQClientCLI.csprojResolveAssemblyReference.cache
+D:\Code\BigQ\BigQCLI\BigQClientCLI\obj\Release\bigq-client.exe
+D:\Code\BigQ\BigQCLI\BigQClientCLI\obj\Release\bigq-client.pdb

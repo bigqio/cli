@@ -1,0 +1,4 @@
+D:\Code\BigQ\BigQCLI\Common\bin\Release\Common.dll
+D:\Code\BigQ\BigQCLI\Common\bin\Release\Common.pdb
+D:\Code\BigQ\BigQCLI\Common\obj\Release\Common.dll
+D:\Code\BigQ\BigQCLI\Common\obj\Release\Common.pdb
