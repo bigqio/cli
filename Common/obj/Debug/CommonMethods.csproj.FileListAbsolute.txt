@@ -2,3 +2,4 @@ D:\Code\BigQ\BigQCLI\Common\bin\Debug\Common.dll
 D:\Code\BigQ\BigQCLI\Common\bin\Debug\Common.pdb
 D:\Code\BigQ\BigQCLI\Common\obj\Debug\Common.dll
 D:\Code\BigQ\BigQCLI\Common\obj\Debug\Common.pdb
+D:\code\bigq\BigQCLI\Common\obj\Debug\CommonMethods.csprojResolveAssemblyReference.cache
