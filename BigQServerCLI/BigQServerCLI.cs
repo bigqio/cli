@@ -49,8 +49,7 @@ namespace BigQServerCLI
                             Console.WriteLine("Menu");
                             Console.WriteLine("  q       quit");
                             Console.WriteLine("  cls     clear screen");
-                            Console.WriteLine("  who     list connected users");
-                            Console.WriteLine("  count   show server connection count");
+                            Console.WriteLine("  who     list connected users"); 
                             Console.WriteLine("");
                             break;
 
@@ -72,13 +71,9 @@ namespace BigQServerCLI
                                 Console.WriteLine(clients.Count + " clients connected");
                                 foreach (Client curr in clients)
                                 {
-                                    Console.WriteLine("  " + curr.IpPort() + "  " + curr.ClientGUID + "  " + curr.Email);
+                                    Console.WriteLine("  " + curr.IpPort + "  " + curr.ClientGUID + "  " + curr.Email);
                                 }
                             }
-                            break;
-
-                        case "count":
-                            Console.WriteLine("Server connection count: " + server.ConnectionCount());
                             break;
                             
                         default:
@@ -109,7 +104,7 @@ namespace BigQServerCLI
                     if (server != null)
                     {
                         Console.WriteLine("Attempting to restart server");
-                        server.Close();
+                        server.Dispose();
                         server = null;
                     }
 
@@ -121,8 +116,6 @@ namespace BigQServerCLI
                     server.ClientConnected = ClientConnected;
                     server.ClientLogin = ClientLogin;
                     server.ClientDisconnected = ClientDisconnected;
-                    server.LogMessage = LogMessage;
-                    server.LogMessage = null;
 
                     Console.WriteLine("Server started");
 
@@ -140,21 +133,21 @@ namespace BigQServerCLI
         static bool ClientConnected(Client client)
         {
             // client connected
-            Console.WriteLine(client.IpPort() + " connected");
+            Console.WriteLine(client.IpPort + " connected");
             return true;
         }
 
         static bool ClientLogin(Client client)
         {
             // client login
-            Console.WriteLine(client.IpPort() + " login [" + client.ClientGUID + "]");
+            Console.WriteLine(client.IpPort + " login [" + client.ClientGUID + "]");
             return true;
         }
 
         static bool ClientDisconnected(Client client)
         {
             // client disconnected
-            Console.WriteLine("*** Disconnected: " + client.IpPort() + " " + client.ClientGUID);
+            Console.WriteLine("*** Disconnected: " + client.IpPort + " " + client.ClientGUID);
             return true;
         }
 

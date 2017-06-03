@@ -5,11 +5,15 @@ D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\bigq-server.pdb
 D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\BigQ.dll
 D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\Common.dll
 D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\Newtonsoft.Json.dll
-D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\System.Data.Portable.dll
-D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\System.Transactions.Portable.dll
 D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\Common.pdb
 D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\BigQ.pdb
 D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\Newtonsoft.Json.xml
 D:\Code\BigQ\BigQCLI\BigQServerCLI\obj\Debug\BigQServerCLI.csprojResolveAssemblyReference.cache
 D:\Code\BigQ\BigQCLI\BigQServerCLI\obj\Debug\bigq-server.exe
 D:\Code\BigQ\BigQCLI\BigQServerCLI\obj\Debug\bigq-server.pdb
+D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\SyslogLogging.dll
+D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\WatsonTcp.dll
+D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\WatsonWebsocket.dll
+D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\SyslogLogging.pdb
+D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\WatsonTcp.pdb
+D:\Code\BigQ\BigQCLI\BigQServerCLI\bin\Debug\WatsonWebsocket.pdb

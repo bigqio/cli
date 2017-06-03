@@ -1,15 +1,15 @@
-# cli
-simple CLI for bigq
+# BigQ CLI
+Simple CLI for BigQ
 
 ## description
 Download and run the server and client app.
 
-## server example
+## Server example
 ```
 C:\> bigq-server -f=server.json
 ```
 
-## client example
+## Client example
 ```
 C:\> bigq-client -f=client.json
 ```

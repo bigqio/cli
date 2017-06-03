@@ -1,48 +1,61 @@
 {  
-   "Version":"1.4.8",
+   "Version":"1.0.0",
    "AcceptInvalidSSLCerts":true,
    "Files":{  
-      "UsersFile":"",
-      "PermissionsFile":""
+      "UsersFile":"users.json",
+      "PermissionsFile":"permissions.json"
    },
    "Heartbeat":{  
       "Enable":false,
       "IntervalMs":1000,
       "MaxFailures":5
    },
+   "Logging":{
+      "ConsoleLogging":true,
+      "SyslogLogging":true,
+      "SyslogServerIp":"127.0.0.1",
+      "SyslogServerPort":514,
+      "MinimumSeverity":1
+   },
    "Notification":{  
       "MsgAcknowledgement":false,
-      "ServerJoinNotification":false,
-      "ChannelJoinNotification":false
+      "ServerJoinNotification":true,
+      "ChannelJoinNotification":true
    },
    "Debug":{  
       "Enable":false,
-      "LockMethodResponseTime":false,
-      "MsgResponseTime":false,
-      "ConsoleLogging":false
+      "LockMethodResponseTime":true,
+      "MsgResponseTime":true,
+      "ConsoleLogging":true
    },
    "TcpServer":{  
       "Enable":true,
-      "IP":"0.0.0.0",
-      "Port":8000
+      "IP":"127.0.0.1",
+      "Port":8000,
+      "Debug":false
    },
-   "TcpSSLServer":{  
+   "TcpSslServer":{  
       "Enable":false,
       "IP":"127.0.0.1",
       "Port":8001,
-      "PFXCertFile":"server.pfx",
-      "PFXCertPassword":"password"
+      "PfxCertFile":"server.pfx",
+      "PfxCertPassword":"password",
+      "AcceptInvalidCerts":true,
+      "Debug":false
    },
    "WebsocketServer":{  
-      "Enable":false,
-      "IP":"0.0.0.0",
-      "Port":8002
+      "Enable":true,
+      "IP":"127.0.0.1",
+      "Port":8002,
+      "Debug":false
    },
-   "WebsocketSSLServer":{  
+   "WebsocketSslServer":{  
       "Enable":false,
-      "IP":"0.0.0.0",
+      "IP":"127.0.0.1",
       "Port":8003,
-      "PFXCertFile":"server.pfx",
-      "PFXCertPassword":"password"
+      "PfxCertFile":"server.pfx",
+      "PfxCertPassword":"password",
+      "AcceptInvalidCerts":true,
+      "Debug":false
    }
 }

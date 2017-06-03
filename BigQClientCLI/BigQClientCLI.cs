@@ -104,7 +104,7 @@ namespace BigQClientCLI
                                 Console.WriteLine("  cls                clear the screen");
                                 Console.WriteLine("  whoami             show my TCP endpoint");
                                 Console.WriteLine("  who                list all connected users");
-                                Console.WriteLine("  debug              enable/disable console debugging (currently " + client.Config.Debug.Enable + ")");
+                                Console.WriteLine("  debug              enable/disable console debugging (currently " + client.Config.Logging.ConsoleLogging + ")");
                                 Console.WriteLine("  /(handle) (msg)    send message (msg) to user with handle (handle)");
                                 Console.WriteLine("                     leave parentheses off for both handle and message data");
                                 Console.WriteLine("");
@@ -134,7 +134,7 @@ namespace BigQClientCLI
 
                             case "whoami":
                                 if (client == null) break;
-                                Console.Write(client.IpPort());
+                                Console.Write(client.IpPort);
                                 if (!String.IsNullOrEmpty(client.ClientGUID)) Console.WriteLine("  GUID " + client.ClientGUID);
                                 else Console.WriteLine("[not logged in]");
                                 break;
@@ -158,14 +158,14 @@ namespace BigQClientCLI
                                         Console.WriteLine("Connected users:");
                                         foreach (Client curr in deduped)
                                         {
-                                            Console.WriteLine("  " + curr.IpPort() + "  " + curr.ClientGUID + "  " + curr.Email);
+                                            Console.WriteLine("  " + curr.IpPort + "  " + curr.ClientGUID + "  " + curr.Email);
                                         }
                                     }
                                 }
                                 break;
 
                             case "debug":
-                                client.Config.Debug.Enable = !client.Config.Debug.Enable;
+                                client.Config.Logging.ConsoleLogging = !client.Config.Logging.ConsoleLogging;
                                 break;
 
                             default:
@@ -223,7 +223,7 @@ namespace BigQClientCLI
                     if (client != null)
                     {
                         Console.WriteLine("Attempting to close client");
-                        client.Close();
+                        client.Dispose();
                     }
 
                     Console.WriteLine("Attempting to connect to server");
