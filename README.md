@@ -14,5 +14,5 @@ C:\> bigq-server -f=server.json
 C:\> bigq-client -f=client.json
 ```
 
-## mono
-this program should work well in Mono.  You may want to pre-compile using AOT.
+## Mono
+This program should work well in Mono.  You may want to pre-compile using AOT.
